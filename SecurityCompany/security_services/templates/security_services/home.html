@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kenity Security & Services Ltd provides professional training and licensed security personnel for all your security needs.">
+    <meta name="keywords" content="security, guard services, corporate security, close protection, key holding">
+    <meta name="author" content="Kenity Security & Services Ltd">
+    <title>Kenity Security & Services Ltd</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        a:hover {
+            color: #004499;
+        }
+
+        /* Navigation */
+        nav {
+            background: #222;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 1rem;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            font-weight: 400;
+        }
+
+        /* Hero Section */
+        .home {
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .home h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .home p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0066cc;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #004499;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 4rem 1rem;
+            background: #f9f9f9;
+        }
+
+        .services h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #333;
+        }
+
+        .service-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .service-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 2rem;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item h3 {
+            margin-bottom: 1rem;
+            color: #0066cc;
+        }
+
+        /* About Section */
+        .about {
+            padding: 4rem 1rem;
+            background: #fff;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 4rem 1rem;
+            background: #f9f9f9;
+        }
+
+        .contact h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .enquiry-form {
+            max-width: 600px;
+            margin: 2rem auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .enquiry-form label {
+            font-weight: 600;
+        }
+
+        .enquiry-form input, .enquiry-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .enquiry-form textarea {
+            resize: none;
+            height: 150px;
+        }
+
+        /* Footer */
+        .footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        .footer a {
+            color: #fff;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1 class="logo">Kenity Security</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Welcome to Kenity Security & Services Ltd</h2>
+            <p>Your Trusted Security Partner</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Professional Training</h3>
+                    <p>Comprehensive training for all security needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Guard Security</h3>
+                    <p>Reliable security guards for all environments.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Corporate Security</h3>
+                    <p>Secure corporate offices and facilities.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Close Protection</h3>
+                    <p>Personalized protection for individuals.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Key Holding</h3>
+                    <p>Secure key management services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Kenity Security specializes in providing licensed, reliable, and professional security personnel for all your needs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="enquiry-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 Kenity Security & Services Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
